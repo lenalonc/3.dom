@@ -1,0 +1,85 @@
+.prod {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+  }
+ 
+  .proizvodi {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  .proizvod {
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .proizvod img {
+    width: 400px;
+  }
+  .proizvod:hover img {
+    transform: scale(1.2); 
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  
+  .proizvod .description {
+    text-align: center;
+  }
+  
+  .proizvod:hover {
+    transition: 0.1s ease-in;
+    cursor: pointer;
+  }
+  
+  .dodajBttn {
+    background-color: transparent;
+    border: 2px solid #7bb074;
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+  }
+  
+  .dodajBttn:hover {
+    background-color: #7bb074;
+    color: white;
+    cursor: pointer;
+  }
+  
+  h2 {
+    transition: transform 0.3s;
+  }
+  
+  h2:hover {
+    animation: shake 0.8s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    75% {
+      transform: translateX(-5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
