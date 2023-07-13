@@ -1,0 +1,45 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .proizvodKorpa {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 15px lightgray;
+    border-radius: 20px;
+    margin: 20px;
+  }
+  
+  .proizvodKorpa img {
+    width: 200px;
+  }
+  
+  .proizvodKorpa .opis {
+    width: 100%;
+    font-size: 30px;
+  }
+  
+  .countHandler input {
+    width: 30px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .plati button {
+    width: 150px;
+    height: 50px;
+    background-color:#7bb074;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 80%;
+  }
+  
